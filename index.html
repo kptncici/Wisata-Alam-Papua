@@ -1,0 +1,83 @@
+<DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Alam di Papua</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#destinasi">Destinasi</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+        <h1>Wisata Alam di Papua</h1>
+    </header>
+    
+    <section id="home">
+        <h2>Selamat Datang di Wisata Alam Papua</h2>
+        <p>Jelajahi keindahan alam Papua yang memukau dan alami.</p>
+    </section>
+    <section id="destinasi">
+        <h2>Destinasi Wisata</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Tempat</th>
+                    <th>Lokasi</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Raja Ampat</td>
+                    <td>Kabupaten Raja Ampat</td>
+                    <td>Raja Ampat dikenal dengan keindahan bawah lautnya yang memukau.</td>
+                </tr>
+                <tr>
+                    <td>Lembah Baliem</td>
+                    <td>Wamena</td>
+                    <td>Lembah yang dikelilingi oleh pegunungan dengan pemandangan alam yang menakjubkan.</td>
+                </tr>
+                <tr>
+                    <td>Puncak Jaya</td>
+                    <td>Papua Tengah</td>
+                    <td>Puncak tertinggi di Indonesia dengan pemandangan salju abadi.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- Image -->
+    <section id="galeri">
+        <h2>Galeri Foto</h2>
+        <div class="gallery">
+            <img src="image/raja-ampat.jpg" alt="Raja Ampat">
+            <img src="image/lembah-baliem.jpg" alt="Lembah Baliem">
+            <img src="image/puncak-jaya.jpg" alt="Puncak Jaya">
+        </div>
+    </section>
+    <section id="kontak">
+        <h2>Hubungi Kami</h2>
+        <form action="#" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" required></textarea>
+            
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Wisata Alam Papua. All rights reserved.</p>
+    </footer>
+</body>
+</html>

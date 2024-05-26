@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7ff;
+}
+
+header {
+  background: url('images/header-bg.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 2em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+section#home {
+  background-color: #b3e0ff;
+}
+
+section#destinasi table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+}
+
+section#destinasi table, th, td {
+  border: 1px solid #ccc;
+}
+
+section#destinasi th, td {
+  padding: 1em;
+  text-align: left;
+}
+
+section#galeri .gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+section#galeri .gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+section#kontak form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#kontak label {
+  margin-top: 1em;
+}
+
+section#kontak input, textarea {
+  width: 50%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+section#kontak button {
+  margin-top: 1em;
+  padding: 0.5em 2em;
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #007acc;
+  color: white;
+}
